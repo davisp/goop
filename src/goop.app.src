@@ -1,0 +1,13 @@
+{application, goop, [
+    {description, "Stuff."},
+    {vsn, git},
+    {mod, {goop_app, []}},
+    {registered, [
+        goop_sup
+    ]},
+    {applications, [
+        kernel,
+        stdlib,
+        jiffy
+    ]}
+]}.
